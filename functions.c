@@ -1,3 +1,4 @@
+#include "holberton.h"
 /**
  * _strlen - checks length of string
  * @s: variable
@@ -35,7 +36,6 @@ char *_strncpy(char *dest, char *src, int n)
   return (dest);
 }
 
-#include "holberton.h"
 /**
  * *_strncat - puts the first string on the end of the second
  * @dest: destination string
