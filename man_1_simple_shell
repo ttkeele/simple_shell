@@ -1,0 +1,30 @@
+.TH HSH 1 "August 27 2021" "1" "Simple Shell man page"
+.SH NAME
+.B hsh
+- A simple UNIX command interpreter.
+.SH SYNOPSIS
+.B ./hsh
+.SH DESCRIPTION
+This program is a simple shell. It uses basic features and functions.
+.SS Overview
+The shell reads lines from the prompt, interprets them, and executes. It compiles all .c files in the repo to create an executable file
+.SS Path Search
+While searching for the commands, it first looks for an executable by the name in the PATH of env followed by builtin commands by that name.
+
+.SH MODES
+.B hsh
+Interactive mode
+.SS
+EXAMPLE:
+$ ls -l
+.B ./hsh
+Non-interactive mode
+.SS
+EXAMPLE:
+$ echo "ls -l" | ./hsh
+
+.SH BUILT-IN COMMANDS
+.B env
+- prints environment
+.B exit
+- exits the shell
