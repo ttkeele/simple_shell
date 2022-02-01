@@ -1,1 +1,1 @@
-more js
+new directory dealing with es6
